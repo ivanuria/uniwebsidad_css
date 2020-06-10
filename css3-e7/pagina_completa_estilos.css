@@ -1,0 +1,184 @@
+:root {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+ul,ul li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+h1,h2,h3,p,form {
+  margin:0;
+  padding:0;
+}
+
+.clear {
+  clear:both;
+}
+
+.articulo {
+  padding: 1em;
+}
+
+.articulo h2 {
+  color: #CC6600;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 0.3em;
+}
+
+img {
+  border:none;
+}
+
+.articulo img {
+  margin: 0.5em;
+}
+
+.articulo a {
+  color: #CC6600;
+  margin-top: 0.3em;
+}
+
+#contenedor {
+  width:90%;
+  max-width:900px;
+  width:expression(document.body.clientWidth > 901? "900px":"auto");
+  margin:0 auto;
+}
+
+#noticias, #publicidad, #principal, #secundario {
+  padding: 0.5em;
+}
+
+#cabecera {
+  clear:both;
+  padding: 1em;
+  background-image: url("images/logo.gif");
+  background-repeat: no-repeat;
+}
+
+#menu {
+  clear:both;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #004C99;
+  background-image: url("images/fondo_menu.gif");
+}
+
+#noticias #pie {
+  background-color: #F8F8F8;
+}
+
+#noticias {
+  border: 1px solid #C5C5C5;
+  background-color: #F8F8F8;
+}
+
+#publicidad {
+  border: 1px dashed #CC6600;
+  background-color: #FFF6CD;
+}
+
+#lateral {
+  float:left;
+  width:20%;
+  font-size: 0.9em;
+}
+
+#lateral div#noticias .fecha {
+  display: block;
+  width: 100%;
+  color: #999;
+}
+
+#lateral div#noticias h3 {
+  color: 003366;
+}
+
+#contenido {
+  float:right;
+  width:78%;
+}
+
+#contenido #principal {
+  float:left;
+  width:72%;
+}
+
+#contenido #principal p {
+  margin-bottom: 0.3em;
+}
+
+#contenido #secundario {
+  float:right;
+  width: 22%;
+  border: 1px solid #CC6600;
+}
+
+#contenido #secundario h2 {
+  padding: 0.2em;
+  background-color: #DB905C;
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 0.3em;
+}
+
+#contenido #secundario p {
+  margin-bottom: 0.3em;
+}
+
+#pie {
+  clear:both;
+  padding: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  border-top: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  background-color: #F8F8F8;
+  color: #999;
+}
+
+#cabecera #logo {
+  float:left;
+}
+
+#cabecera #buscador {
+  float:right;
+}
+
+#menu ul#menu_principal li {
+  display:inline;
+  float:left;
+  margin-right: 1em;
+}
+
+#menu ul#menu_principal li a {
+  color: white;
+}
+
+#contenido #principal .articulo img {
+  width:100px;
+  float:left;
+}
+
+#pie .enlaces{
+  float:left;
+}
+
+#pie .copyright{
+  float:right;
+}
+
+#publicidad {
+  margin-top: 1em;
+  color: #555;
+}
+
+#publicidad a {
+  color: #CC6600;
+}

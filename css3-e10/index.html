@@ -1,0 +1,47 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio menu vertical avanzado</title>
+<style type="text/css">
+ul.menu {
+  width: 180px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #7C7C7C;
+  list-style-position: inside;
+  list-style-image: url("images/flecha_inactiva.png");
+}
+ul.menu li {
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
+  background: #F4F4F4;
+  height: 1.4em;
+}
+ul.menu li a {
+  padding: .2em 0 .2em 0.3em;
+  display: inline-block; /* Con display: block se me va de línea... */
+  text-decoration: none;
+  color: #333;
+}
+
+ul.menu li:hover {
+  background-color:#E4E4E4;
+  list-style-image: url("images/flecha_activa.png");
+}
+
+</style>
+</head>
+<body>
+<ul class="menu">
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 1</a></li>
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 2</a></li>
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 3</a></li>
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 4</a></li>
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 5</a></li>
+<li><a href="#" title="Enlace gen&eacute;rico">Elemento 6</a></li>
+</ul>
+</body>
+</html>

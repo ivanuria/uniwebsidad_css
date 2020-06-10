@@ -1,0 +1,231 @@
+body {
+  font-family: Verdana;
+  color: #192666;
+  background-color: #F2F5FE;
+  background-image: url("../images/fondo.gif");
+  background-repeat: repeat-x;
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+}
+
+/* layout */
+#navegador {
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contenido {
+  display: grid;
+  grid-template-columns: auto 530px 200px auto;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  width: 760px;
+}
+
+#contenido #principal {
+  grid-column: 2
+}
+
+#contenido #secundario {
+  grid-column: 3
+}
+
+/* Header */
+#cabecera {
+  height: 100px;
+  background-image: url("../images/cabecera.jpg");
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto 0px auto 0px;
+}
+
+#cabecera > h1 {
+  font-size: 2.5em;
+  font-weight: lighter;
+  margin: auto;
+  margin-left: 2em;
+  margin-top: 1.25em;
+}
+
+#cabecera > h1 > a {
+  color: white;
+}
+
+#cabecera > #buscador {
+  margin: auto;
+  margin-right: 1.5em;
+  margin-top: 3.5em;
+}
+
+#cabecera > #buscador fieldset {
+  border: none;
+}
+
+#cabecera > #buscador legend {
+  display: none;
+}
+
+/* Menu */
+
+#menu {
+  background-color: #192667;
+  margin: 0px auto 0px auto;
+  padding-top: 0.4em;
+  width: 760px;
+}
+
+#menu ul {
+  margin-left: -0.5em;
+  margin-bottom: -1px;
+  margin-top: 0.4em;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  display: inline-block;
+  color: #B5C4E3;
+  text-decoration-line: none;
+  margin: 0.1em;
+  padding: 0.5em;
+  background-color: #253575;
+}
+
+#menu ul li a:hover {
+  background-color: #31479B;
+}
+
+#menu ul li.seleccionado a{
+  color: #FF9000;
+  background-color: white;
+}
+
+/* Articles */
+#contenido .articulo {
+  background-image: url("../images/fondo_articulo.jpg");
+  margin-top: 0.3em;
+  padding-top: 0.3em;
+  padding-bottom: 2em;
+}
+
+#contenido .articulo h2 {
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  background-color: #DDE5FC;
+  padding: 0.5em;
+  color: #192666;
+  font-weight: lighter;
+}
+
+#contenido .articulo .info {
+  margin-top: 0.2em;
+  padding-bottom: 0.3em;
+  color: #6685CC;
+  border-bottom: 1px solid #DDE5FC;
+}
+
+#contenido .articulo .info a {
+  color: #6685CC;
+}
+
+#contenido .articulo .info span {
+  display: inline-block;
+  margin-right: 1em;
+  padding-left: 12px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#contenido .articulo .info .fecha {
+  background-image: url("../images/icono_fecha.gif");
+}
+
+#contenido .articulo .info .categoria {
+  background-image: url("../images/icono_categoria.gif");
+}
+
+#contenido .articulo .info .autor {
+  background-image: url("../images/icono_autor.gif");
+}
+
+#contenido .articulo .info .comentarios {
+  background-image: url("../images/icono_comentarios.gif");
+}
+
+#contenido .articulo p {
+  margin-left: 2em;
+}
+
+/* Column */
+#contenido #secundario {
+  background: url("../images/fondo_columna.gif") no-repeat,
+    url("../images/fondo_lateral_2.jpg") repeat-y;
+  background-color: #CEDBF9;
+}
+
+#contenido #secundario h3 {
+
+  background-color: #A0B9F3;
+  font-size: 1.1em;
+  margin-top: 1em;
+  padding-left: 5px;
+  padding-top: 1em;
+  height: 2.1em;
+  color: #19267E;
+}
+
+#contenido #secundario h3 a {
+  color: #19267E;
+}
+
+#contenido #secundario img {
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+}
+
+/* Categories */
+#contenido #secundario #categorias {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-image: url("images/flecha_inactiva.png");
+}
+
+#contenido #secundario #categorias li {
+  display: block;
+  border-top: 1px solid #E0E8FA;
+  border-bottom: 1px solid #E0E8FA;
+  margin-left: 0px;
+  padding: 0.4em;
+  padding-left: 20px;
+  background-image: url("../images/icono_elemento.gif");
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+#contenido #secundario #categorias li:hover {
+  background-color: #E0E8FA;
+  background-image: url("../images/icono_elemento_seleccionado.gif");
+}
+#contenido #secundario #categorias a {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Foot */
+#pie { /* I love this tasty name */
+  height: 50px;
+  margin-top: -10px;
+  margin-left: -5px;
+  width: 760px;
+  padding: 0.8em;
+  padding-left: 5em;
+  background: url("../images/fondo_pie.jpg") no-repeat;
+}

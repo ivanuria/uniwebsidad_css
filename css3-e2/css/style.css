@@ -1,0 +1,56 @@
+h1 {
+  color: #008484;
+}
+
+h2 {
+  color: blue;
+}
+
+a {
+  color: red;
+}
+
+em {
+  color: blue;
+}
+
+strong {
+  color: red;
+}
+
+.destacado {
+  color: #FFA500;
+}
+
+.especial {
+  /* Es especiaaaaal */
+  color: #940084;
+}
+
+/* Vamos a por la tablilla */
+table * {
+  color: green;
+}
+caption {
+  color: blue;
+}
+
+th {
+  color: red;
+}
+
+table .especial, table strong {
+  color: #FFA500;
+}
+
+#adicional * {
+  color: #948400;
+}
+
+#adicional #especial {
+  color: #FF00FF;
+}
+
+#adicional a {
+  color: #008400;
+}
