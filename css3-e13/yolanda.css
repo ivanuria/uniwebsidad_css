@@ -1,0 +1,91 @@
+
+body {
+  font: Verdana #192666;
+  background-color: #f2f5fe;
+}
+
+#contenedor {
+  background-image: url("/imagenes/ejercicio13/fondo.gif");
+  background-color: #f2f5fe;
+  width: 770px;
+  margin: 0 auto;
+}
+
+
+#cabecera {
+height: 100px;
+background-image: url("imagenes/ejercicio13/cabecera.jpg");
+}
+
+#logo a{
+  float: left;
+  color:white;
+  margin-left: .5em;
+  margin-top: .5em;
+}
+#buscador {
+  float: right;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+#pie {
+float: right;
+}
+#principal {
+  float: left;
+  width: 530px;
+}
+#secundario {
+  float: right;
+  width: 200px;
+}
+
+ #menu {
+  background-color: #253575;
+  margin: 0 .3em;
+  padding: 0;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu a {
+  color: #b5c4e3;
+  display:block;
+  padding: .3em;
+  text-decoration: none;
+  border-bottom: #253575;
+  margin: 0 .3em;
+}
+
+#menu li  {
+  float: left;
+  width: 100px;
+}
+
+#menu {
+  overflow:hidden;
+}
+
+ul#menu li a {
+  border-left: 1px solid ;
+}
+
+#menu a:hover {
+  background-color: #31479b;
+}
+
+#menu a:focus {
+  background-color: white;
+  color: #ff9000;
+}
+
+.articulo {
+  background-image: url("imagenes/ejercicio13/fondo_articulo.jpg");
+  background-repeat: no-repeat;
+}
+
+.info {
+  background-image: url("imagenes/ejercicio13/fondo_columna.gif");
+}
